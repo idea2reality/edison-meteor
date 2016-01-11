@@ -21,6 +21,7 @@ namespace i2r.component.sidenav {
         /* Services */
         $mdSidenav;
 
+        static $inject = ['$scope', '$reactive', '$mdSidenav'];
         constructor($scope, $reactive, $mdSidenav) {
             $reactive(this).attach($scope);
 

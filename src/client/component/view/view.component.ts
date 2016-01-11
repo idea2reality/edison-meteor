@@ -14,6 +14,7 @@ namespace i2r.component.view {
 
         $mdSidenav;
 
+        static $inject = ['$mdSidenav'];
         constructor($mdSidenav) {
             this.$mdSidenav = $mdSidenav;
         }
