@@ -12,7 +12,60 @@ Meteor.startup(function() {
                 'avatar': 'svg-2',
                 'isAlive': false,
                 'leds': [
-                    { '_id': 3, 'type': 'cc3200-dim', 'name': '안방', 'value': [0, 0, 0], 'protocol': protocol }
+                    {
+                        "_id": 2,
+                        "type": "cc3200-dim",
+                        "name": "거실",
+                        "value": [
+                            91,
+                            126,
+                            83
+                        ],
+                        "protocol": {
+                            "prefix": [
+                                2
+                            ],
+                            "postfix": [
+                                3
+                            ]
+                        }
+                    },
+                    {
+                        "_id": 3,
+                        "type": "cc3200-dim",
+                        "name": "안방",
+                        "value": [
+                            91,
+                            126,
+                            83
+                        ],
+                        "protocol": {
+                            "prefix": [
+                                2
+                            ],
+                            "postfix": [
+                                3
+                            ]
+                        }
+                    },
+                    {
+                        "_id": 255,
+                        "type": "cc3200-dim",
+                        "name": "전체",
+                        "value": [
+                            91,
+                            126,
+                            83
+                        ],
+                        "protocol": {
+                            "prefix": [
+                                2
+                            ],
+                            "postfix": [
+                                3
+                            ]
+                        }
+                    }
                 ]
             },
             {
