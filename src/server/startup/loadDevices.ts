@@ -13,6 +13,24 @@ Meteor.startup(function() {
                 'isAlive': false,
                 'leds': [
                     {
+                        "_id": 1,
+                        "type": "cc3200-dim",
+                        "name": "침실",
+                        "value": [
+                            91,
+                            126,
+                            83
+                        ],
+                        "protocol": {
+                            "prefix": [
+                                2
+                            ],
+                            "postfix": [
+                                3
+                            ]
+                        }
+                    },
+                    {
                         "_id": 2,
                         "type": "cc3200-dim",
                         "name": "거실",
