@@ -8,12 +8,11 @@ Meteor.startup(function() {
         var edisons = [
             {
                 '_id': 'cc3200',
-                'name': 'CC3200',
+                'name': 'LED Lighting Control',
                 'avatar': 'svg-2',
                 'isAlive': false,
                 'leds': [
-                    { '_id': 1, 'type': 'cc3200', 'name': '거실', 'value': false },
-                    { '_id': 2, 'type': 'cc3200-dim', 'name': '안방', 'value': [30, 90, 50], 'protocol': protocol }
+                    { '_id': 3, 'type': 'cc3200-dim', 'name': '안방', 'value': [0, 0, 0], 'protocol': protocol }
                 ]
             },
             {
